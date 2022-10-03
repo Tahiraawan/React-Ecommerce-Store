@@ -1,0 +1,43 @@
+.header {
+  padding: 160px 0;
+  background-image: url('/public/images/home-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 240px 0;
+  }
+}
+
+.header input {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--text-color);
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header input:focus {
+  border-color: var(--primary-color);
+  outline: 1px solid var(--primary-color);
+}
+
+.header .search-results {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.header p {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}

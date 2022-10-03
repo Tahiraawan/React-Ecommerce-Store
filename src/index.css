@@ -1,0 +1,59 @@
+:root {
+  /* Color Variables */
+  --primary-color: #ff8906;
+  --secondary-color: #f25f4c;
+  --tertiary-color: #e53170;
+  --background-color: #0f0e17;
+  --text-color: #fffffe;
+  --text-secondary-color: #a7a9be;
+  --stroke-color: #000000;
+
+  /* Font Variables */
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: var(--font-primary);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary)
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.App {
+  position: relative;
+}
+
+@import './styles/layout.css';
+@import './styles/components/layout/Navbar.css';
+
+@import './styles/components/homepage/Header.css';
+@import './styles/components/homepage/ProductsView.css';
+
+@import './styles/components/productpage/ProductDetail.css';
+
+@import './styles/components/cartpage/CartItem.css';
+@import './styles/components/cartpage/index.css';
+
+@import './styles/components/common/BackLink.css';

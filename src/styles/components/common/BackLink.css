@@ -1,0 +1,12 @@
+.back-link {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.back-link:hover {
+  color: var(--secondary-color);
+}
